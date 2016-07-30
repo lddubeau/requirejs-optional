@@ -1,0 +1,29 @@
+{
+  "name": "requirejs-optional",
+  "version": "0.1.0",
+  "versionedSources": "optional.js",
+  "description": "A plugin for loading modules optionally in RequireJS.",
+  "main": "optional.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-lddubeau-base": "^0.1.0",
+    "mocha": "^2.5.3",
+    "semver-sync": "^1.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "RequireJS",
+    "module",
+    "loading"
+  ],
+  "author": "Louis-Dominique Dubeau <ldd@lddubeau.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lddubeau/requirejs-optional.git"
+  }
+}
